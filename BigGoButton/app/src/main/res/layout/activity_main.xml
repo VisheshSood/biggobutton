@@ -10,8 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.washington.vsood.biggobutton.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <Button
+        android:text="Push me!"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button"
+        android:textSize="40dp"
+        android:background="@color/green"
+        android:textColor="@color/red"
+        android:textStyle="italic"/>
 </RelativeLayout>
